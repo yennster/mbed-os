@@ -25,6 +25,10 @@
             "help": "select whether to include the Service Changed characteristic in the GATT Server",
             "value": "1",
             "macro_name": "NRF_SDH_BLE_SERVICE_CHANGED"
+        },
+        "gatt_char_vloc_location": {
+            "help": "Sets the default VLOC location for GattCharacteristic memory buffers, 0 = stack, 1 = user",
+            "value": "0"
         }
     }
 }
